@@ -6,7 +6,6 @@ Reusable TypeScript data structures and algorithm templates for competitive prog
 
 - 🚀 Fast, copy-paste-ready snippets for contests
 - 🧱 Modular implementations for testing
-- 🧠 Easy to expand as you learn more DSA
 
 ## 📂 Structure
 
