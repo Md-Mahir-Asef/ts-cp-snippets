@@ -1,0 +1,20 @@
+{
+  "name": "ts-cp-snippets",
+  "version": "1.0.0",
+  "description": "Reusable TypeScript data structures and algorithm templates for competitive programming and coding interviews.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
