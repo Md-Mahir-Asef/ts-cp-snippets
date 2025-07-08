@@ -38,8 +38,8 @@ export class SinglyLinkedList<T> {
   }
 
   public removeLast(): T | null {
-    if(!this.head) return null;
-    if(!this.head.next) {
+    if (!this.head) return null;
+    if (!this.head.next) {
       let val = this.head.val;
       this.head = null;
       return val;
@@ -69,10 +69,10 @@ export class SinglyLinkedList<T> {
   }
 
   public toArray(): T[] {
-    if(!this.head) return [];
+    if (!this.head) return [];
     var arr = [];
     let current = this.head;
-    while(current.next !== null) {
+    while (current.next !== null) {
       arr.push(current.val);
       current = current.next;
     }
@@ -81,7 +81,7 @@ export class SinglyLinkedList<T> {
   }
 
   public has(val: T): boolean {
-    if(!this.head) return false;
+    if (!this.head) return false;
     let current = this.head;
     while (current.next !== null) {
       if (current.val === val) return true;
