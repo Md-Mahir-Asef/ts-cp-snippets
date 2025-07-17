@@ -1,4 +1,4 @@
-class Queue<T> {
+class MyQueue<T> {
   private queue: T[];
   private head: number;
   private maxSize: number;
